@@ -31,7 +31,7 @@ To run the application locally:
 
 - Clone the repository: Open your terminal and
 copy code
-git clone https://github.com/clarathuo1/Wk2-code-challenge.git
+git clone https://clarathuo1.github.io/Wk2-code-challenge/
 - Open your vs code.
 - Open an index.html file in your browser and ensure JavaScript is enabled in your vs code.
 #### Explore and Customize:
@@ -49,7 +49,7 @@ To use this repository on your computer follow these steps:
 
 - Open terminal on your computer
 - Change directory to your desired folder
-- Clone the repository using the command:git clone https://github.com/clarathuo1/Wk2-code-challenge.git
+- Clone the repository using the command:git clone https://clarathuo1.github.io/Wk2-code-challenge/
 - Change directory to the folder you cloned.
 - Open it in your code editor.
 
