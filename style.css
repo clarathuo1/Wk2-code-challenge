@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: palevioletred;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+#clearListBtn {
+    background-color: blue;
+    margin-top: 15px;
+}
+
+#clearListBtn:hover {
+    background-color: #c82333;
+}
+
+#clearListBtn:active {
+    background-color: #a71d2a;
+}
+
+#shoppingList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#shoppingList li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+#shoppingList li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#shoppingList li.purchased {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
+
+#shoppingList li label {
+    flex: 1;
+    outline: none;
+}
+
+#shoppingList li button {
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#shoppingList li button:hover {
+    background-color: #e0a800;
+}
+
+#shoppingList li button:active {
+    background-color: #c69500;
+}
+
